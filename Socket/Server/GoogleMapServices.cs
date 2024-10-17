@@ -41,7 +41,7 @@ namespace Server
         public GoogleGeoCodeResponse ConvertAddressToLatLng(string addr)
         {
             string result = string.Empty;
-            string googlemapkey = "AIzaSyA8XFoUhlmfGu-rv_bhQB99suJsBoLUO_w";    //GoogleMapAPI金鑰，試用期三個月過了記得要去重辦
+            string googlemapkey = "Google API Key";    //GoogleMapAPI金鑰，試用期三個月過了記得要去重辦
             string url = MapUrl + "&address={0}";
             url = string.Format(url, addr);
             url += "&key=" + googlemapkey;
