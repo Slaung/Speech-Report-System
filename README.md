@@ -2,6 +2,7 @@
 
 - Socket: 包含接線員端(Operator)、消防局端(Client)和伺服器端(Server)。
 - Task_chatbot: python語音機器人。
+DM影片連結：[https://youtu.be/De4B7P5cHNE](https://youtu.be/De4B7P5cHNE)
 
 目錄：
 - 系統架構
